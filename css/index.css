@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* generate random quotes */
+.random-quotes{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(194, 168, 165);
+}
+.smaller-quotes{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(240, 218, 216);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button-generator{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 3rem 0rem;
+    background-color: rgba(96, 221, 230,.8);
+    color: white;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+.button-generator:hover{
+    box-shadow: 16px 10px 11px 4px rgba(188,232,229,1);
+    border:  none;
+}
+.quote{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: rgb(138, 138, 138);
+    margin-bottom: 1.3rem;
+}
+.quotes{
+    font-size: 5rem;
+}
+.author-quote{
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    color: rgba(96, 221, 230,.8);
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+}
